@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>What's The Difference?</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+  	<meta name="description" content="The game of finding differences.">
+  	<meta name="author" content="You know who">
+
+	<link href="https://fonts.googleapis.com/css?family=Slackey|ZCOOL+KuaiLe|Sniglet" rel="stylesheet">
+  	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<main>
+		<form id="intro">
+			<div class="center">
+				<h3 id="story"></h3>
+				<button type="button">Go check it out...</button>
+			</div>
+		</form>
+		<div id="game-ui">
+			<div id="info">
+				<h1>WHAT'S THE DIFFERENCE...<span id="secret">?</span></h1>
+				<div id="stat">
+					<h2>Time: <span id="time">0</span></h2>
+					<h2>Score: <span id="score">0</span></h2>
+					<h2>Level: <span id="level">1</span></h2>
+				</div>
+			</div>
+			<div id="game-container">
+				<form id="instructions" class="center">
+					<h3>In the time given,<br/>click on the shape on the right side that is not on the left side.<br/><br/>
+					You will receive the same amount of points as the time remaining.</h3>
+					<button type="button">Start</button>
+				</form>
+				<form id="win" class="center">
+					<h3>You Win!<br/>Click "Next" to begin next level.</h3>
+					<button type="button">Next</button>
+				</form>
+				<form id="loose" class="center">
+					<h3></h3>
+					<button type="button">Restart</button>
+				</form>
+				<div id="original-container" class="two-containers">
+					<canvas id="original-canvas" class="canvas center"></canvas>
+				</div>
+				<div id="edited-container" class="two-containers">
+					<canvas id="edited-canvas" class="canvas center"></canvas>
+				</div>
+			</div>
+		</div>
+	</main>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="script.js"></script>
+</body>
+</html>
