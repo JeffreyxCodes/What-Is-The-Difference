@@ -4,7 +4,8 @@ General
 
 body {
 	margin: 0;
-	--info-height: 20vh;
+	box-sizing: border-box;
+	--info-height: 150px;
 	--game-container-height: calc(100vh - var(--info-height));
 }
 
@@ -39,7 +40,7 @@ main {
 
 #stat {
 	text-align: center;
-	padding: 24px 0;
+	margin: 20px 0;
 }
 
 #stat h2 {
