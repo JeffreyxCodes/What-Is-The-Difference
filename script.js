@@ -1,7 +1,7 @@
 $(function() {
 	let oCanvas = $("#original-canvas")[0];
 	oCanvas.width = window.innerWidth / 2 - 60;
-	oCanvas.height = window.innerHeight * 4 / 5 - 60;
+	oCanvas.height = window.innerHeight  - 200;
 	let octx = oCanvas.getContext("2d");
 
 	let eCanvas = $("#edited-canvas")[0];
