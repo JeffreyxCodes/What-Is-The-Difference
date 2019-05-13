@@ -25,6 +25,8 @@ $(function() {
 	let level = 1;
 
 	let story = [
+		`Site is currently under construction...
+		play this game in the mean while :D`,
 		`Opening your eyes to the darkness, you find yourself lying on a cold smooth surface. You try to think 
 		back to how you to ended up in this moment, but absolutely nothing comes to mind.`,
 		`You finally muster up the courage to feel around your surroundings, after waiting for something, anthing to 
