@@ -43,6 +43,9 @@ main {
 
 #story {
 	width: 500px;
+	max-width: 90%;
+	margin: auto;
+	padding: 0 15px;
 	text-align: left;
 }
 
@@ -135,6 +138,7 @@ form#intro {
 
 form#intro div {
 	top: 30%;
+	max-width: 100%;
 }
 
 form#intro h4 {
@@ -147,6 +151,7 @@ form#intro button {
 
 form:not(#intro) {
 	width: 380px;
+	max-width: 100%;
 	padding: 25px;
 	border-radius: 25px;
 }
@@ -182,6 +187,7 @@ button:hover {
 /********************************************
 Media Query
 ********************************************/
+
 @media (max-width: 500px) {
 	#story {
 		width: 360px;
